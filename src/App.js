@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import sidebar from './components/Sidebar';
+import Sidebar from "./components/Sidebar"
 
 
 function App() {
   return (
-    <div className="ME">
-      <header className="App-header">
-        {"yo whats up"}
-      </header>
+    <div className="App">
+      <Sidebar/>
     </div>
   );
 }
