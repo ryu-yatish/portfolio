@@ -1,16 +1,30 @@
+
+
 .App {
-  width: 100vw;
-  height: 100vw;
+  width: 100%;
+  height: 100vh;
   background-color: rgb(255, 255, 255);
+  margin: 0%;
+  overflow: hidden;
+  padding: 0%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  
 }
 
 .Sidebar {
-  height: 100vw;
   width: 250px;
+  height: 100%;
   background-color: cadetblue;
+  float: left;
+}
+
+.Sidebarlist {
+  margin: 20px;
+  padding: 20px;
 }
