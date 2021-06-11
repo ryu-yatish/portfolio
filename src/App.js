@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
     <div className="App">
+      
       <Sidebar/>
       <Switch>
           <Route path="/about">
@@ -52,7 +53,12 @@ function Youtube() {
 }
 
 function Art() {
-  return <h2>art</h2>;
+  return (
+    <div>
+      <h2>art</h2>
+      <div className="instapics"><iframe class="frame" width="560" height="800" src="https://www.instagram.com/p/CMahyiXlki6/embed" title="insta post display" frameborder="30" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+  );
 }
 function Miscellaneous() {
   return <h2>miscellaneous</h2>;

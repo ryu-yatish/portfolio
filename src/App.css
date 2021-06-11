@@ -17,6 +17,39 @@ body {
   
 }
 
+.instapics {
+
+  transition: transform .2s; /* Animation */
+  align-content: center;
+}
+
+.instapics:hover {
+  transform: scale(1.02);
+
+
+}
+.frame
+{
+   
+    
+    margin: 2%;
+    border: 10px,rebeccapurple;
+    overflow: hidden;
+    padding: 2%;
+    float: left;
+
+    -ms-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
 .Sidebar {
   width: 250px;
   height: 100%;
